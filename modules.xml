@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<modules id="all">
+  
+  <linkprefix>https://www.ucl.ac.uk/maths/sites/maths/files/</linkprefix>
+
+  <!-- Year 1 modules -->
+
+  <module id="analysis1" ects="7.5">
+    <name>Analysis 1</name>
+    <year>1</year>
+    <syllabus>math0003.pdf</syllabus>
+    <term>1</term>
+    <code>
+      <current>MATH0003</current>
+      <old>MATH1101</old>
+    </code>
+    <prerequisites/>
+  </module>
+  
+  <module id="analysis2" ects="7.5">
+    <name>Analysis 2</name>
+    <year>1</year>
+    <syllabus>math0004.pdf</syllabus>
+    <term>2</term>
+    <code>
+      <current>MATH0004</current>
+      <old>MATH1102</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">analysis1</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="algebra1" ects="7.5">
+    <name>Algebra 1</name>
+    <year>1</year>
+    <syllabus>math0005.pdf</syllabus>
+    <term>1</term>
+    <code>
+      <current>MATH0005</current>
+      <old>MATH1201</old>
+    </code>
+    <prerequisites/>
+  </module>
+  
+  <module id="algebra2" ects="7.5">
+    <name>Algebra 2</name>
+    <year>1</year>
+    <syllabus>math0005.pdf</syllabus>
+    <term>2</term>
+    <code>
+      <current>MATH0006</current>
+      <old>MATH1202</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra1</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="algebraforjointhonours" ects="7.5">
+    <name>Algebra for Joint Honours Students</name>
+    <year>1</year>
+    <syllabus>math0007.pdf</syllabus>
+    <term>2</term>
+    <code>
+      <current>MATH0007</current>
+      <old>MATH1203</old>
+    </code>
+    <prerequisites/>
+    <students>
+      <group year="1">Mathematics with Physics</group>
+    </students>
+  </module>
+
+  <module id="applied1" ects="7.5">
+    <name>Applied Mathematics</name>
+    <year>1</year>
+    <syllabus>math0008.pdf</syllabus>
+    <term>1</term>
+    <code>
+      <current>MATH0008</current>
+      <old>MATH1301</old>
+    </code>
+    <prerequisites/>
+  </module>
+
+  <module id="applied2" ects="7.5">
+    <name>Newtonian Mechanics</name>
+    <year>1</year>
+    <syllabus>math0009.pdf</syllabus>
+    <term>2</term>
+    <code>
+      <current>MATH0009</current>
+      <old>MATH1302</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">applied1</prerequisite>
+      <prerequisite type="needed">methods1</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="methods1" ects="7.5">
+    <name>Mathematical Methods 1</name>
+    <year>1</year>
+    <syllabus>math0010.pdf</syllabus>
+    <term>1</term>
+    <code>
+      <current>MATH0010</current>
+      <old>MATH1401</old>
+    </code>
+    <prerequisites/>
+  </module>
+
+  <module id="methods2" ects="7.5">
+    <name>Mathematical Methods 2</name>
+    <year>1</year>
+    <term>2</term>
+    <syllabus>math0011.pdf</syllabus>
+    <code>
+      <current>MATH0011</current>
+      <old>MATH1402</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods1</prerequisite>
+    </prerequisites>
+  </module>
+
+  <!--<module id="econ1" ects="15">
+    <name>Economics 1</name>
+    <year>1</year>
+    <syllabus>math0002.pdf</syllabus>
+    <term>1</term>
+    <term>2</term>
+    <code>
+      <current>MATH0002</current>
+      <old>ECON1604</old>
+    </code>
+    <prerequisites/>
+    <students>
+      <group year="1">Economics and Statistics</group>
+      <group year="1">Mathematics with Economics</group>
+    </students>
+  </module>-->
+
+  <!-- Year 2, term 1 -->
+  
+  <module id="analysis3" ects="7.5">
+    <name>Complex Analysis</name>
+    <year>2</year>
+    <term>1</term>
+    <syllabus>math0013.pdf</syllabus>
+    <code>
+      <current>MATH0013</current>
+      <old>MATH2101</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">analysis1</prerequisite>
+      <prerequisite type="recommended">analysis2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="algebra3" ects="7.5">
+    <name>Further Linear Algebra</name>
+    <year>2</year>
+    <term>1</term>
+    <syllabus>math0014.pdf</syllabus>
+    <code>
+      <current>MATH0014</current>
+      <old>MATH2201</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="applied3" ects="7.5">
+    <name>Fluid Mechanics</name>
+    <year>2</year>
+    <term>1</term>
+    <syllabus>math0015.pdf</syllabus>
+    <code>
+      <current>MATH0015</current>
+      <old>MATH2301</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods2</prerequisite>
+      <prerequisite type="needed">applied2</prerequisite>
+    </prerequisites>
+  </module>
+  
+  <module id="methods3" ects="7.5">
+    <name>Mathematical Methods 3</name>
+    <year>2</year>
+    <term>1</term>
+    <syllabus>math0016.pdf</syllabus>
+    <code>
+      <current>MATH0016</current>
+      <old>MATH2401</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <!-- Year 2, term 2 -->
+  
+  <module id="analysis4" ects="7.5">
+    <name>Analysis 4</name>
+    <year>2</year>
+    <term>2</term>
+    <syllabus>math0051.pdf</syllabus>
+    <code>
+      <current>MATH0051</current>
+      <old>MATH7102</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">analysis2</prerequisite>
+    </prerequisites>
+  </module>
+  
+  <module id="geometryandgroups" ects="7.5">
+    <name>Geometry and Groups</name>
+    <year>2</year>
+    <term>2</term>
+    <syllabus>math0052.pdf</syllabus>
+    <code>
+      <current>MATH0052</current>
+      <old>MATH7112</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">analysis3</prerequisite>
+      <prerequisite type="needed">algebra2</prerequisite>
+      <prerequisite type="needed">algebra3</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="algebra4" ects="7.5">
+    <name>Algebra 4</name>
+    <year>2</year>
+    <term>2</term>
+    <syllabus>math0053.pdf</syllabus>
+    <code>
+      <current>MATH0053</current>
+      <old>MATH7202</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="analyticaldynamics" ects="7.5">
+    <name>Analytical Dynamics</name>
+    <year>2</year>
+    <term>2</term>
+    <syllabus>math0054.pdf</syllabus>
+    <code>
+      <current>MATH0054</current>
+      <old>MATH7302</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods2</prerequisite>
+      <prerequisite type="needed">applied2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="electromagnetism" ects="7.5">
+    <name>Electromagnetism</name>
+    <year>2</year>
+    <term>2</term>
+    <syllabus>math0055.pdf</syllabus>
+    <code>
+      <current>MATH0055</current>
+      <old>MATH7304</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods3</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="methods4" ects="7.5">
+    <name>Mathematical Methods 4</name>
+    <year>2</year>
+    <term>2</term>
+    <syllabus>math0056.pdf</syllabus>
+    <code>
+      <current>MATH0056</current>
+      <old>MATH7402</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">analysis3</prerequisite>
+      <prerequisite type="needed">methods3</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="probabilityandstatistics" ects="7.5">
+    <name>Probability and Statistics</name>
+    <year>2</year>
+    <term>2</term>
+    <syllabus>math0057.pdf</syllabus>
+    <code>
+      <current>MATH0057</current>
+      <old>MATH7501</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="computationalmethods" ects="7.5">
+    <name>Computational Methods</name>
+    <year>2</year>
+    <term>2</term>
+    <syllabus>math0058.pdf</syllabus>
+    <code>
+      <current>MATH0058</current>
+      <old>MATH7601</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods1</prerequisite>
+      <prerequisite type="needed">algebra2</prerequisite>
+      <comment>Some programming knowledge (e.g. Python) desirable</comment>
+    </prerequisites>
+  </module>
+
+  <module id="numbertheory" ects="7.5">
+    <name>Number Theory</name>
+    <year>2</year>
+    <term>2</term>
+    <syllabus>math0034.pdf</syllabus>
+    <code>
+      <current>MATH0034</current>
+      <old>MATH7701</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <!--<module id="econ2" ects="7.5">
+    <name>Economics 2</name>
+    <year>2</year>
+    <term>2</term>
+    <syllabus>stat0001.pdf</syllabus>
+    <code>
+      <current>STAT0001</current>
+      <old>ECON2601</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">econ1</prerequisite>
+    </prerequisites>
+    <students>
+      <group year="2">Economics and Statistics</group>
+      <group year="2">Mathematics with Economics</group>
+    </students>
+  </module>-->
+
+  <!-- Year 3 -->
+
+  <module id="measuretheory" ects="7.5">
+    <name>Measure Theory</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0017.pdf</syllabus>
+    <code>
+      <current>MATH0017</current>
+      <old>MATH3101</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">analysis4</prerequisite>
+    </prerequisites>
+  </module>
+  
+
+  <module id="functionalanalysis" ects="7.5">
+    <name>Functional Analysis</name>
+    <year>3</year>
+    <term>2</term>
+    <syllabus>math0018.pdf</syllabus>
+    <code>
+      <current>MATH0018</current>
+      <old>MATH3103</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">analysis4</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="multivariableanalysis" ects="7.5">
+    <name>Multivariable Analysis</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0019.pdf</syllabus>
+    <code>
+      <current>MATH0019</current>
+      <old>MATH3109</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">analysis4</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="differentialgeometry" ects="7.5">
+    <name>Differential Geometry</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0020.pdf</syllabus>
+    <code>
+      <current>MATH0020</current>
+      <old>MATH3113</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="commutativealgebra" ects="7.5">
+    <name>Commutative Algebra</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0021.pdf</syllabus>
+    <code>
+      <current>MATH0021</current>
+      <old>MATH3201</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra4</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="galoistheory" ects="7.5">
+    <name>Galois Theory</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0022.pdf</syllabus>
+    <code>
+      <current>MATH0022</current>
+      <old>MATH3202</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra4</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="algebraictopology" ects="7.5">
+    <name>Algebraic Topology</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0023.pdf</syllabus>
+    <code>
+      <current>MATH0023</current>
+      <old>MATH3203</old>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra3</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="geophysicalfluiddynamics" ects="7.5">
+    <name>Geophysical Fluids</name>
+    <year>3</year>
+    <term>2</term>
+    <syllabus>math0024.pdf</syllabus>
+    <code>
+      <old>MATH3304</old>
+      <current>MATH0024</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">applied3</prerequisite>
+      <prerequisite type="needed">methods3</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="mathematicsforgeneralrelativity" ects="7.5">
+    <name>Mathematics for General Relativity</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0025.pdf</syllabus>
+    <code>
+      <old>MATH3305</old>
+      <current>MATH0025</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods3</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="biomathematics" ects="7.5">
+    <name>Biomathematics</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0026.pdf</syllabus>
+    <code>
+      <old>MATH3307</old>
+      <current>MATH0026</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">applied2</prerequisite>
+      <prerequisite type="needed">methods2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="biomathematics" ects="7.5">
+    <name>Biomathematics</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0026.pdf</syllabus>
+    <code>
+      <old>MATH3307</old>
+      <current>MATH0026</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">applied2</prerequisite>
+      <prerequisite type="needed">methods2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="methods5" ects="7.5">
+    <name>Methods 5</name>
+    <year>3</year>
+    <term>2</term>
+    <syllabus>math0027.pdf</syllabus>
+    <code>
+      <old>MATH3401</old>
+      <current>MATH0027</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods4</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="combinatorialoptimisation" ects="7.5">
+    <name>Combinatorial Optimisation</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0028.pdf</syllabus>
+    <code>
+      <old>MATH3502</old>
+      <current>MATH0028</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra3</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="graphtheory" ects="7.5">
+    <name>Graph Theory</name>
+    <year>3</year>
+    <term>2</term>
+    <syllabus>math0029.pdf</syllabus>
+    <code>
+      <old>MATH3503</old>
+      <current>MATH0029</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">probabilityandstatistics</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="mathematicalecology" ects="7.5">
+    <name>Mathematical Ecology</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0030.pdf</syllabus>
+    <code>
+      <old>MATH3506</old>
+      <current>MATH0030</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods1</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="financialmathematics" ects="7.5">
+    <name>Financial Mathematics</name>
+    <year>3</year>
+    <term>2</term>
+    <syllabus>math0031.pdf</syllabus>
+    <code>
+      <old>MATH3508</old>
+      <current>MATH0031</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods3</prerequisite>
+      <prerequisite type="needed">probabilityandstatistics</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="mathematica" ects="7.5">
+    <name>Introduction to Mathematica</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0032.pdf</syllabus>
+    <code>
+      <old>MATH3601</old>
+      <current>MATH0032</current>
+    </code>
+    <prerequisites>
+    </prerequisites>
+  </module>
+
+  <module id="numericalmethods" ects="7.5">
+    <name>Numerical Methods</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0033.pdf</syllabus>
+    <code>
+      <old>MATH3603</old>
+      <current>MATH0033</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra2</prerequisite>
+      <prerequisite type="needed">methods2</prerequisite>
+      <prerequisite type="needed">computationalmethods</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="algebraicnumbertheory" ects="7.5">
+    <name>Algebraic Number Theory</name>
+    <year>3</year>
+    <term>2</term>
+    <syllabus>math0035.pdf</syllabus>
+    <code>
+      <old>MATH3704</old>
+      <current>MATH0035</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">numbertheory</prerequisite>
+      <prerequisite type="needed">algebra4</prerequisite>
+      <prerequisite type="recommended">galoistheory</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="ellipticcurves" ects="7.5">
+    <name>Elliptic Curves</name>
+    <year>3</year>
+    <term>1</term>
+    <syllabus>math0036.pdf</syllabus>
+    <code>
+      <old>MATH3705</old>
+      <current>MATH0036</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">numbertheory</prerequisite>
+      <prerequisite type="needed">algebra4</prerequisite>
+    </prerequisites>
+  </module> 
+
+  <module id="logic" ects="7.5">
+    <name>Logic</name>
+    <year>3</year>
+    <term>2</term>
+    <syllabus>math0037.pdf</syllabus>
+    <code>
+      <old>MATH3801</old>
+      <current>MATH0037</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="historyofmathematics" ects="7.5">
+    <name>History of Mathematics</name>
+    <year>3</year>
+    <term>2</term>
+    <syllabus>math0038.pdf</syllabus>
+    <code>
+      <old>MATH3802</old>
+      <current>MATH0038</current>
+    </code>
+    <prerequisites>
+    </prerequisites>
+  </module>
+
+  <module id="probability" ects="7.5">
+    <name>Probability</name>
+    <year>3.5</year>
+    <term>2</term>
+    <syllabus>math0069.pdf</syllabus>
+    <code>
+      <old>MATHM105</old>
+      <current>MATH0069</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">measuretheory</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="lpde" ects="7.5">
+    <name>Linear Partial Differential Equations</name>
+    <year>3.5</year>
+    <term>1</term>
+    <syllabus>math0070.pdf</syllabus>
+    <code>
+      <old>MATHM110</old>
+      <current>MATH0070</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">analysis3</prerequisite>
+      <prerequisite type="needed">methods3</prerequisite>
+      <prerequisite type="needed">analysis4</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="representationtheory" ects="7.5">
+    <name>Representation Theory</name>
+    <year>3.5</year>
+    <term>2</term>
+    <syllabus>math0073.pdf</syllabus>
+    <code>
+      <old>MATHM204</old>
+      <current>MATH0073</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra4</prerequisite>
+      <prerequisite type="recommended">commutativealgebra</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="realfluids" ects="7.5">
+    <name>Real Fluids</name>
+    <year>3.5</year>
+    <term>1</term>
+    <syllabus>math0077.pdf</syllabus>
+    <code>
+      <old>MATHM301</old>
+      <current>MATH0077</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">applied3</prerequisite>
+      <prerequisite type="needed">methods3</prerequisite>
+      <prerequisite type="needed">methods4</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="wavesandwavescattering" ects="7.5">
+    <name>Waves and Wave Scattering</name>
+    <year>3.5</year>
+    <term>2</term>
+    <syllabus>math0080.pdf</syllabus>
+    <code>
+      <old>MATHM402</old>
+      <current>MATH0080</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods4</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="primenumbersandtheirdistribution" ects="7.5">
+    <name>Prime Numbers and their Distribution</name>
+    <year>3.5</year>
+    <term>2</term>
+    <syllabus>math0083.pdf</syllabus>
+    <code>
+      <old>MATHM703</old>
+      <current>MATH0083</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">analysis3</prerequisite>
+      <prerequisite type="needed">analysis4</prerequisite>
+      <prerequisite type="needed">numbertheory</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="spectraltheory" ects="7.5">
+    <name>Spectral Theory</name>
+    <year>4</year>
+    <term>1</term>
+    <syllabus>math0071.pdf</syllabus>
+    <code>
+      <old>MATHM111</old>
+      <current>MATH0071</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">functionalanalysis</prerequisite>
+      <prerequisite type="needed">multivariableanalysis</prerequisite>
+      <prerequisite type="recommended">measuretheory</prerequisite>
+    </prerequisites>
+  </module>
+  
+  <module id="riemanniangeometry" ects="7.5">
+    <name>Riemannian Geometry</name>
+    <year>4</year>
+    <term>1</term>
+    <syllabus>math0072.pdf</syllabus>
+    <code>
+      <old>MATHM114</old>
+      <current>MATH0072</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">multivariableanalysis</prerequisite>
+      <prerequisite type="needed">differentialgeometry</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="topologyandgroups" ects="7.5">
+    <name>Topology and Groups</name>
+    <year>4</year>
+    <term>1</term>
+    <syllabus>math0074.pdf</syllabus>
+    <code>
+      <old>MATHM205</old>
+      <current>MATH0074</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">analysis3</prerequisite>
+      <prerequisite type="needed">analysis4</prerequisite>
+      <prerequisite type="recommended">geometryandgroups</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="liegroupsandliealgebras" ects="7.5">
+    <name>Lie Groups and Lie Algebras</name>
+    <year>4</year>
+    <term>1</term>
+    <syllabus>math0074.pdf</syllabus>
+    <code>
+      <old>MATHM206</old>
+      <current>MATH0075</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">algebra3</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="algebraicgeometry" ects="7.5">
+    <name>Algebraic Geometry</name>
+    <year>4</year>
+    <term>1</term>
+    <syllabus>math0076.pdf</syllabus>
+    <code>
+      <old>MATHM211</old>
+      <current>MATH0076</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">commutativealgebra</prerequisite>
+      <prerequisite type="needed">galoistheory</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="asymptoticmethods" ects="7.5">
+    <name>Asymptotic Methods and Boundary Layer Theory</name>
+    <year>4</year>
+    <term>2</term>
+    <syllabus>math0078.pdf</syllabus>
+    <code>
+      <old>MATHM302</old>
+      <current>MATH0078</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">realfluids</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="cosmology" ects="7.5">
+    <name>Cosmology</name>
+    <year>4</year>
+    <term>2</term>
+    <syllabus>math0079.pdf</syllabus>
+    <code>
+      <old>MATHM306</old>
+      <current>MATH0079</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">mathematicsforgeneralrelativity</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="evolutionarygames" ects="7.5">
+    <name>Evolutionary Games and Population Genetics</name>
+    <year>4</year>
+    <term>2</term>
+    <syllabus>math0082.pdf</syllabus>
+    <code>
+      <old>MATHM505</old>
+      <current>MATH0082</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods2</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="advancedmodelling" ects="7.5">
+    <name>Advanced Modelling Techniques</name>
+    <year>4</year>
+    <term>1</term>
+    <syllabus>math0065.pdf</syllabus>
+    <code>
+      <old>MATHMM01</old>
+      <current>MATH0065</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods1</prerequisite>
+      <prerequisite type="needed">methods2</prerequisite>
+      <prerequisite type="needed">analysis3</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="computationalandsimulationmethods" ects="7.5">
+    <name>Computational and Simulation Methods</name>
+    <year>4</year>
+    <term>1</term>
+    <syllabus>math0086.pdf</syllabus>
+    <code>
+      <old>MATHMM04</old>
+      <current>MATH0086</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods2</prerequisite>
+      <prerequisite type="needed">computationalmethods</prerequisite>
+    </prerequisites>
+  </module>
+
+  <module id="quantitativeandcomputationalfinance" ects="7.5">
+    <name>Quantitative and Computational Finance</name>
+    <year>4</year>
+    <term>1</term>
+    <syllabus>math0088.pdf</syllabus>
+    <code>
+      <old>MATHMM21</old>
+      <current>MATH0088</current>
+    </code>
+    <prerequisites>
+      <prerequisite type="needed">methods3</prerequisite>
+      <prerequisite type="needed">financialmathematics</prerequisite>
+    </prerequisites>
+  </module>
+</modules>

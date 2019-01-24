@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pathways>
+
+
+  <pathway id="y1y2" name="First and Second Year" startfromyear="1" startfromterm="1"/>
+  
+  <pathway id="algebra" name="Algebra" startfromyear="2" startfromterm="2">
+    <includedmodule>algebra4</includedmodule>
+    <includedmodule>commutativealgebra</includedmodule>
+    <includedmodule>galoistheory</includedmodule>
+    <includedmodule>algebraicgeometry</includedmodule>
+    <includedmodule>representationtheory</includedmodule>
+    <includedmodule>ellipticcurves</includedmodule>
+    <includedmodule>algebraicnumbertheory</includedmodule>
+    <includedmodule>primenumbersandtheirdistributions</includedmodule>
+    <includedmodule>historyofmathematics</includedmodule>
+    <includedmodule>liegroupsandliealgebras</includedmodule>
+    <includedmodule>algebraictopology</includedmodule>
+    <includedmodule>algebraicgeometry</includedmodule>
+    <includedmodule>logic</includedmodule>
+  </pathway>
+  
+  <pathway id="analysis" name="Analysis" startfromyear="2" startfromterm="2">
+    <includedmodule>analysis4</includedmodule>
+    <includedmodule>functionalanalysis</includedmodule>
+    <includedmodule>measuretheory</includedmodule>
+    <includedmodule>multivariableanalysis</includedmodule>
+    <includedmodule>probability</includedmodule>
+    <includedmodule>lpde</includedmodule>
+    <includedmodule>spectraltheory</includedmodule>
+    <includedmodule>geometryandgroups</includedmodule>
+    <includedmodule>differentialgeometry</includedmodule>
+    <includedmodule>topologyandgroups</includedmodule>
+    <includedmodule>riemanniangeometry</includedmodule>
+  </pathway>
+
+  <pathway id="applied" name="Applied Mathematics" startfromyear="2" startfromterm="2">
+    <includedmodule>methods4</includedmodule>
+    <includedmodule>methods5</includedmodule>
+    <includedmodule>electromagnetism</includedmodule>
+    <includedmodule>analyticaldynamics</includedmodule>
+    <includedmodule>wavesandwavescattering</includedmodule>
+    <includedmodule>realfluids</includedmodule>
+    <includedmodule>geophysicalfluiddynamics</includedmodule>
+    <includedmodule>mathematicsforgeneralrelativity</includedmodule>
+    <includedmodule>asymptoticmethods</includedmodule>
+    <includedmodule>cosmology</includedmodule>
+  </pathway>
+
+  <pathway id="modelling" name="Modelling, Computation and Finance" startfromyear="2" startfromterm="2">
+    <includedmodule>evolutionarygames</includedmodule>
+    <includedmodule>financialmathematics</includedmodule>
+    <includedmodule>biomathematics</includedmodule>
+    <includedmodule>mathematicalecology</includedmodule>
+    <includedmodule>advancedmodelling</includedmodule>
+    <includedmodule>computationalandsimulationmethods</includedmodule>
+    <includedmodule>quantitativeandcomputationalfinance</includedmodule>
+    <includedmodule>mathematica</includedmodule>
+    <includedmodule>numericalmethods</includedmodule>
+  </pathway>
+  
+</pathways>
